@@ -2,12 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
-}
 
 body.index-main
 {  
@@ -19,11 +13,6 @@ body.index-main
     
 }
 
-html,body {
-
-    background-color: black;
-}
-
 
 li {
     list-style: none;
@@ -32,50 +21,6 @@ a{
     text-decoration: none;
 }
 
-
-.navbar 
-{
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    padding: 1em 3em;
-    height: 90px;
-    background-color: black;  
-}
-
-.hamburger
-{
-    display:none;  
-}
-
-.bar
-{
-    display: block;
-    width: 40px;
-    height: 5px;
-    margin: 6px auto;
-    background-color: white;
-}
-
-.nav-set 
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-item
-{
-    margin-left: 5em;
-}
-.nav-link{
-    font-size: 1.4rem;
-    font-weight: 100;
-    color: white;
-}
-.nav-link:hover{
-    color: hsla(192, 2%, 48%, 0.822);
-    transition: 0.3s ease all;
-}
 
 .Home-main-wrapper
 {
@@ -124,52 +69,6 @@ h3
 }
 
 
-
-@media only screen and (max-width: 768px) {
-   .nav-set {
-        position: absolute;
-        right: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: black;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-    }
-
-  /*  .nav-set {
-      position: absolute;
-      top: -100%;
-      flex-direction: column;
-      background-color: black;
-      width: 100%;
-      text-align:  center;
-      transition: 0.3s;
-      box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-    }
-*/
-    .nav-item > a {
-        color:white;
-    }   
-    .nav-set.active {
-       right: 0;
-    }
-
-    .nav-item {
-        margin: 1.5rem 0;
-    }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-        margin-top: 8px;
-    }
- 
-  
-}
 
 @media only screen and (max-width: 1300px)  {
   .Two-wrapper{
