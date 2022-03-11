@@ -1,0 +1,46 @@
+
+.contact-wrapper {
+    display: flex;
+    border: 1px solid white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+div > h1 {
+    font-size: 50px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: white;
+}
+form > label {
+   
+    height: 100%;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: white;   
+
+}
+.formup > * {
+    display: block;
+}
+.form-wrapper  {
+    border: 1px solid palevioletred;
+    
+}
+.form-wrapper > .formup > *{
+    margin: 1em 1em;
+    padding: 
+    
+}
+.social-plots {
+    width: 20px;
+    height: 20px;
+    border: 2px solid pink;
+}
+.Details-wrapper {
+    
+    border: 2px solid pink;
+}

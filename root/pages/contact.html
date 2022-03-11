@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head> 
-        <link rel="stylesheet" href="E:\Port_folio\root\css\styles.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/contactCss.css">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta charset="utf-8">
         <title></title>
@@ -10,12 +11,12 @@
         <header class="header">
             <nav class="navbar">
                <a href="../index.html" class="logo">
-                   <img src="E:\Port_folio\root\iMAGES\49320.png" class="img-logo" width="55px" height="55px">
+                   <img src="../iMAGES/49320.png" class="img-logo" width="55px" height="55px">
             </a>
                 <ul class="nav-set">
-                    <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">PROJECTS</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">BLOG</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link">PROJECTS</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
                 </ul>
                 <div class="hamburger">
@@ -26,20 +27,22 @@
             </nav>
         </header>
         <div class="contact-wrapper">
-            <h1 class="contact-item-1">Get in Touch</h1>
             <div class="Details-wrapper">
+                <div class="contact-item-1"><h1>Get in Touch</h1></div>
                 <div class="detail-item"></div>
                 <div class="detail-item"></div>
                 <div class="detail-item"></div>
             </div>
             <div class="form-wrapper">
-              <label class="Name">Name</label>
-              <input type="text">
-              <label class="mail">mail</label>
-              <input type="email">
-              <label class="Message">Message</label>
-              <input type="text">
-              <button class="submit" type="submit"></button>
+               <form action="" class="formup">
+              <label for="Name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Name" width="100%">
+              <label for="Mail">Mail</label>
+              <input type="email" id="email" name="email" placeholder="Email">
+              <label for="message">Message</label>
+              <textarea id="txtarea" name="txtarea" placeholder="Message"></textarea>
+              <input type="submit" value="Submit">
+               </form>
             </div>
             <div class="social-plots">
                 <div class="social-item"></div>

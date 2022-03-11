@@ -11,7 +11,7 @@
 
 body.index-main
 {  
-    background-image: url(E:/Port_folio/root/iMAGES/wave3.svg);
+    background-image: url(../iMAGES/wave3.svg);
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -167,12 +167,7 @@ h3
         cursor: pointer;
         margin-top: 8px;
     }
-   h1 {
-     font-size: 40px;
-   }
-  h3 {
-    font-size: 10px;
-  }
+ 
   
 }
 
@@ -190,7 +185,7 @@ h3
 /* Button Styling */
 
 
-button, button::after {
+.work-button, .work-button::after {
   width: 350px;
   height: 86px;
   font-size: 36px;
@@ -205,7 +200,7 @@ button, button::after {
   position: relative;
 }
 
-button::after {
+.work-button::after {
   --slice-0: inset(50% 50% 50% 50%);
   --slice-1: inset(80% -6px 0 0);
   --slice-2: inset(50% -6px 30% 0);
@@ -226,7 +221,7 @@ button::after {
 }
 
 
-button:hover::after {
+.work-button:hover::after {
   animation: 1s glitch;
   animation-timing-function: steps(2, end);  
 }
