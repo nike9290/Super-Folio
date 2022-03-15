@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    
+    height:  87vh;
 }
 div > h1 {
     font-family: Rubik,sans-serif;
@@ -73,7 +73,7 @@ p {
 }
 .form-wrapper  {
     border: 1px solid palevioletred;
-    width: 400px;
+    width: 500px;
 }
 
 .form-input-item {
@@ -131,15 +131,20 @@ textarea {
 
 }
 
-a > img {
-    width: 36px;
-    height: 36px;
+.i-tem > img {
+    width: 35px;
+    height: 35px;
     cursor:pointer;
     margin:  10px 0;
     transition: 0.3s all ease;
 }
-a > img:hover {
+
+.i-tem > img:hover {
     width: 42px;
     height: 42px;
+}
 
+
+@media only screen and (max-width:768px) {
+  
 }
