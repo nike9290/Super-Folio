@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap');
+:root {
+    --contactPrimaryColor: #fff;
+    --contactSecColor: #ddd;
+}
+
+h2 {
+    border: 1px solid white;
+    color: var(--contactPrimaryColor);
+}
+
+.cards {
+    border: 2px solid firebrick;
+    
+}
+.card {
+    border:  3px solid darkcyan;
+}
