@@ -4,15 +4,3 @@
     --contactPrimaryColor: #fff;
     --contactSecColor: #ddd;
 }
-
-h2 {
-    border: 1px solid white;
-    color: var(--contactPrimaryColor);
-    text-align: center;
-    font-family: Rubik,sans-serif;
-    font-size: 35px;
-    padding: 2px 0;
-    mar
-}
-
-  
